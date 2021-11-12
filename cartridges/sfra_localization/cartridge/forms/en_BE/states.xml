@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19">
+	<field formid="stateCode" label="label.input.state" type="string" mandatory="false" binding="stateCode" missing-error="address.state.missing" value-error="address.field.invalid" parse-error="error.message.required">
+		<options>
+			<option optionid="" 	label="resource.select" 		value=""/>
+            <option optionid="Antwerpen" 	label="state.be.antwerpen" value="Antwerpen"/>
+			<option optionid="Brussels" 	label="state.be.brussels" value="Brussels"/>
+			<option optionid="Brabant Wallon" 	label="state.be.brabant-wallon" value="Brabant Wallon"/>
+			<option optionid="Hainaut" 	label="state.be.Hainaut" value="Hainaut"/>
+			<option optionid="Liège" 	label="state.be.liege" value="Liège"/>
+			<option optionid="Limburg" 	label="state.be.limburg" value="Limburg"/>
+			<option optionid="Luxembourg" 	label="state.be.luxembourg" value="Luxembourg"/>
+			<option optionid="Namur" 	label="state.be.namur" value="Namur"/>
+			<option optionid="Oost-Vlaanderen" 	label="state.be.oost-vlaanderen" value="Oost-Vlaanderen"/>
+			<option optionid="Vlaams-Brabant" 	label="state.be.vlaams-brabant" value="Vlaams-Brabant"/>
+			<option optionid="West-Vlaanderen" 	label="state.be.west-vlaanderen" value="West-Vlaanderen"/>
+		</options>
+	</field>
+</form>
